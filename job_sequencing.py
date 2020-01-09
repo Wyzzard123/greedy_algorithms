@@ -2,9 +2,9 @@
 To solve job sequencing problems
 """
 
-jobs = ["J4", "J3", "J1", "J2", "J5"]
-profits = [5, 10, 20, 15, 1]
-deadlines = [3, 1, 2, 2, 3]
+jobs = ["J4", "J3", "J1", "J2", "J5", "J6", "J7", "J8", "J9", "J10"]
+profits = [5, 10, 20, 15, 1, 4, 5, 2, 3, 4]
+deadlines = [3, 1, 2, 2, 3, 4, 5, 2, 3, 4]
 
 def job_sequencing(jobs, profits, deadlines):
     # jobs: profits, deadlines
